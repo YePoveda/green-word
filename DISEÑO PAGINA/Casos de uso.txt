@@ -1,0 +1,31 @@
+Casos de uso:
+-Mecanismos que mostrares funciones de forma grafica.
+-Transformar nuestro sistema en un modelo grafico y entenderlo de mejor forma.
+-Mejor comunicación entre los clientes y nos.
+-La funcionalidad del sistema para los usuarios.
+-Respuesta del sistema ante las interacciones del usuario.
+-¿Como respondera el sistema al usuario.
+-un caso de uso separa el que (hecho por el creador) y el como (usuario).
+-Los casos de uso se deben crear desde el POV del usuario.
+-Se compone por:
+diagramas (actores, funcionalidades, relaciones)
+Especificación (Escenarios y restricciones)
+-Un diagrama de forma con el actor (usuario) y el caso de uso (funcionalidades).
+-El actor interactua con el sistema sinedo externo a este
+-La relación se usa para unir dos casos de uso, aunque en ocaciones se pueden convertir en uno solo.
+RELACIÓN "INCLUDE"
+Un caso de uso tendra el mismo labor que otro caso de uso en el mismo sitio.
+Ej: Si en una biblioteca se renatn libros, un caso de usop con una realcion include seria:
+Trabajador--->(Rentar un libro)--->(Cobrar por la renta del libro).
+El caso de uso include seria la flecha entre el Rentar un libro y el cobrar por la renta del mismo.
+RELACIÓN "EXTEND"
+Un caso de uso así indica que un caso de uso (use case) puede extender o añadir funcionalidades a otro caso de uso base. 
+
+EJ: Sistema de venta de musica online
+¿que puede hacer los usuarios?
+-Comprar canciones.
+-Se debe almacenar la info de la compras de los usuarios.
+-El usuario puede buscar canciones y comprar las mismas.
+-El sistema podra almacenar info sobre la cantidad de canciones compradas y sus precios.
+-El sistema sugira canciones segun los gustos del usuario.
+
